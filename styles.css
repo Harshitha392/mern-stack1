@@ -1,0 +1,31 @@
+.titlebar{
+    background-color: rgb(56,56,56);
+    color: orange;
+    height: 250px;
+    width: auto;
+    border-top: 50px;
+    font-size: 30px;
+}
+.left_side{
+    margin-left: 30px;
+}
+p{
+    font-size: 20px;
+}
+.skills{
+    height: 500px;
+    width: 600px;
+}
+.right_side{
+    position: relative;
+    align-items: right;
+    margin-left: 750px;
+}
+.Intro{
+    position: relative;
+    /* align-items: right; */
+    font-size: 20px;
+    height: 300px;
+    width: 600px;
+    bottom: 750px;
+}
