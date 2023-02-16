@@ -90,7 +90,7 @@
 
 
 require("dotenv").config();
-const userLib=require("./backend/Lib/userLib")
+const userLib=require("/backend/Lib/userLib")
 const mongoose =require("mongoose");
 const express = require('express');
 const app = express();
