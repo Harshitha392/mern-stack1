@@ -13,10 +13,6 @@ app.get("/resume", function(req, res){
 	//res.send("I am Harshitha Majety");
 	res.sendFile(__dirname+"/resume.html");
 });
-app.get("/resume1", function(req, res){
-	//res.send("I am Harshitha Majety");
-	res.sendFile(__dirname+"/resume1.html");
-});
 mongoose.set('strictQuery',true);
 mongoose.connect(process.env.MONGO_CONNECTION_STRING,{},function(err){
 	if(err)
