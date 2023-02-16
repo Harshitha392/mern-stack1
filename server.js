@@ -3,7 +3,7 @@ const userLib=require("./backend/Lib/userLib")
 const mongoose =require("mongoose");
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 5010;
+const port = process.env.PORT || 5011;
 
 app.get("/", function(req, res){
 	//res.send("I am Harshitha Majety");
