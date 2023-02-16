@@ -22,7 +22,7 @@ mongoose.connect(process.env.MONGO_CONNECTION_STRING,{},function(err){
 	//do not create user if atleast 1 user exist in table
 	userLib.createFirstUser(function(err,result){
 		if(err){
-		//console.error(err);
+		console.error(err);
 		}
 		else
 		console.log(res);
